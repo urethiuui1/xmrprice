@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="160.0" prefWidth="442.0" style="-fx-background-color: RGBA(247,247,247,1.0); -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="watch.Controller">
+   <children>
+      <Label fx:id="lprice" layoutX="32.0" layoutY="44.0" onMouseClicked="#updatePrice">
+         <font>
+            <Font name="FreeSans Bold" size="63.0" />
+         </font>
+      </Label>
+      <Label fx:id="lchange" layoutX="14.0" layoutY="114.0" />
+      <ImageView fitHeight="59.0" fitWidth="56.0" layoutX="386.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@xmr.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
